@@ -14,6 +14,8 @@ BuildRequires:	postgresql-devel >= 8
 BuildRequires:	sqlite3-devel >= 3.6.12
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%undefine	__cxx
+
 %description
 The Zild C Database Library implements a small, fast, and easy to use
 database API with thread-safe connection pooling. The library can
