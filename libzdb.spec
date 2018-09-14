@@ -1,7 +1,7 @@
 Summary:	Small, easy to use Database Connection Pool Library
 Name:		libzdb
 Version:	3.0
-Release:	2
+Release:	3
 License:	GPL v3+ and MIT
 Group:		Libraries
 Source0:	http://www.tildeslash.com/libzdb/dist/%{name}-%{version}.tar.gz
